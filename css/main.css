@@ -97,21 +97,236 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+~~~~~~~~ Start Utility classes ~~~~~~~~~
+*/
+.none {
+    display:none;
+}
+
+.icone {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    width: 40%;
+}
+
+.lien {
+    display: flex;
+    flex-direction: column;
+}
+
+.couleur {
+    margin: 1em;
+}
+
+
+.black {
+    color: black;
+}
+
+.Textecentre{
+    text-align: center;
+}
+
+/*
+~~~~~~~~ End Utility classes ~~~~~~~~~
+*/
 
 
 
+/*
+~~~~~~~~ Start Common rules ~~~~~~~~~
+*/
+img {
+    width: 100%
+}
+
+i,a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p, a {
+    color: beige;
+}
+
+
+/*
+~~~~~~~~ End Common Rules ~~~~~~~~~
+*/
 
 
 
+/*
+~~~~~~~~ Start Header rules ~~~~~~~~~
+*/
+body {
+}
+
+.logo_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo_droit{
+	margin-right: 1em;
+}
+
+.logo_header img {
+    width: 30%;
+}
+
+section h1, p {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+article {
+    width: 100%;
+}
+
+.article i, a {
+    margin-right: 1em;
+}
+
+#none {
+    display: none;
+}
+
+#barres{
+	margin-left: 2em;
+}
+
+.p_img {
+    display: none;
+}
+
+.lien { 
+    display: none;
+}
+
+.icone_footer { 
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+@media screen and (min-width:500px){
+
+.logo_header {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+}
+
+.logo_droit {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#none  {
+    display: block;
+}
+
+#barres { 
+    display: none;
+}
+
+.nav ul {
+    display: flex;
+}
+.img_tel {
+    display: none
+}
+
+.p_img {
+    display: block
+}
+.logo6 {
+    background-image: url(../logo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
 
 
 
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+article {
+    width: 40%; 
+}
+
+.lien {
+    display: none;
+}
+
+@media screen and (min-width:1200px){
+
+.couleur_action {
+    color: #000
+}    
+
+.call_action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex article {
+    width: 20%
+}
+
+.block_lien {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lien {
+    display: flex;
+}
 
 
-
-
+.icone_footer { 
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
 
 /* ==========================================================================
    Helper classes
